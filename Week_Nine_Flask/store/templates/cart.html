@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+Cart
+{% for book in books %}
+{{ book["title"] }}
+{% endfor %}
+
+{% endblock %}
